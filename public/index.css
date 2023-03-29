@@ -1,0 +1,153 @@
+nav{
+    background-color: slategray;
+}
+
+
+.logo{
+    font-weight: 400;
+}
+
+.detail{
+    text-transform: uppercase;
+    text-align: center;
+    color: #BFACE2;
+
+}
+
+.flexable{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding: 1px 5px;
+    flex-wrap: wrap;
+
+}
+
+.flexable a{
+    text-decoration: none;
+    /* color: rgb(81, 253, 1); */
+}
+
+.bookNamecenter{
+    text-align: center;
+}
+
+div p{
+    /* text-align: center; */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+img{
+    height: 18rem;
+}
+
+.card{
+    background-color: slategrey;
+    border: none;
+}
+
+.more{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: #BFACE2;
+}
+
+.backButton{
+    color: white;
+    padding: 0;
+}
+
+/* readmore  */
+
+.backHref{
+    text-decoration: none;
+    height: 37px;
+    width: 110px;
+    /* padding: 20px 20px; */
+    /* width: 400px; */
+    /* margin-top: 10px; */
+}
+
+
+
+
+h3{
+    margin: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .image{
+        height: 20rem;
+    }
+  }
+
+  /* form  */
+  /* form section addbooks.php  */
+
+  .formClass{
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+
+  @media screen and (max-width: 500px) {
+    .formClass{
+        flex-wrap: wrap;
+    }
+  }
+
+  .imageSection{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .imageInput{
+    display: block;
+  }
+
+  .saveBtn{
+    align-items: right;
+  }
+
+  .btnSection{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.inputFeilds label{
+    display: flex;
+}
+
+#uploadFile{
+    background-color: gray;
+}
+
+.imagePreview{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.readMoreImage{
+    border-radius: 0 17px 17px 0;
+    height: 21rem;
+    width: 19rem;
+}
+
+
+
+
+
+
+
