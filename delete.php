@@ -21,7 +21,11 @@ var_dump($result);
 if($result){
 echo "the content has been deleted";
     session_start();
-    $_SESSION['deletion'] = "Form Deleted successfully";
+    $_SESSION['deletion'] = "Book Deleted successfully";
     header("location: index2.view.php");
 }
 ?>
+
+
+<?php 
+    

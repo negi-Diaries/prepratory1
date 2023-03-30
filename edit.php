@@ -28,7 +28,7 @@ $data = $statement->fetch();
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Virtual Library</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -48,7 +48,7 @@ $data = $statement->fetch();
         </div>
     </nav>
     <div class="container">
-        <h1>Add a book</h1>
+        <h1>Edit book</h1>
     </div>
 
   

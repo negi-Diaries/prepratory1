@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Virtual Library</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,9 +43,9 @@ if(isset($_POST["submitted"])){
     if($_POST['bookname'] == '' || $_POST['author'] == '' || $_POST['description'] == '' || $_FILES["imageupload"]["name"] == ''){
       echo "please enter all the details";
     }else{
-      $bookname = $_POST['bookname'];
-      $author = $_POST['author'];
-      $description = $_POST['description'];
+      $bookname = ucwords($_POST['bookname']);
+      $author = ucwords($_POST['author']);
+      $description = ucfirst($_POST['description']);
       
       $fileName = $_FILES["imageupload"]["name"];
       $tempName =  $_FILES["imageupload"]["tmp_name"];

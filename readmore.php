@@ -29,7 +29,7 @@ $data = $statement->fetch();
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Virtual Library</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,7 +51,9 @@ $data = $statement->fetch();
             </div>
         </div>
     </nav>
-    <!-- <h1>this is read more page </h1> -->
+    <div class="container">
+        <h1>Read more</h1>
+    </div>
     <form action="addBooks.php" class=" my-3 container" method="POST" enctype="multipart/form-data">
         <div class="formClass my-5">
             <div class="mb-3 container imageSection">
